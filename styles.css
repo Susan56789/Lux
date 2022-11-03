@@ -22,13 +22,22 @@ li {
 }
 a {
   text-decoration: none;
+}
+
+.navbar a {
   color: brown;
 }
+
 a:hover {
   background-color: gold;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   cursor: pointer;
+}
+.active {
+  background-color: gold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 .navbar {
@@ -128,6 +137,15 @@ a:hover {
 }
 
 .description {
-  font-size: 30px;
-  font-style: oblique;
+  font-size: 25px;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
