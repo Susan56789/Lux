@@ -85,3 +85,25 @@ a:hover {
 .dropdown:hover .dropbtn {
   background-color: white;
 }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container-content {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+}
